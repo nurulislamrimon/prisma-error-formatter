@@ -1,0 +1,53 @@
+{
+  "name": "prisma-error-formatter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "prisma",
+    "error",
+    "formatter",
+    "prisma-error",
+    "prisma-errors",
+    "prisma-client",
+    "error-handling",
+    "error-formatting",
+    "prisma-exception",
+    "database-errors",
+    "typescript",
+    "nodejs",
+    "orm",
+    "prisma-orm",
+    "prisma-client-errors",
+    "prisma-error-handler",
+    "validation-error",
+    "initialization-error",
+    "rust-panic",
+    "database-orm",
+    "error-messages",
+    "exception-formatter",
+    "prisma-exception-formatter"
+  ],
+  "author": "Nurul Islam Rimon <nurulislamrimon@gmail.com>",
+  "license": "MIT",
+  "description": "A flexible and customizable Prisma error formatter for better error handling and user-friendly error messages in Prisma Client applications.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nurulislamrimon/prisma-error-formatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nurulislamrimon/prisma-error-formatter/issues"
+  },
+  "homepage": "https://github.com/nurulislamrimon/prisma-error-formatter#readme",
+  "dependencies": {
+    "@prisma/client": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.2",
+    "typescript": "^5.8.3"
+  }
+}
