@@ -1,6 +1,6 @@
 {
   "name": "prisma-error-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flexible and customizable Prisma error formatter for better error handling and user-friendly error messages in Prisma Client applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
