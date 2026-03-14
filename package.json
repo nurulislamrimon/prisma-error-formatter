@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-exception-handler",
-  "version": "4.0.0",
-  "description": "A comprehensive global exception filter for NestJS that handles all common NestJS, Prisma, and Node.js exceptions with formatted error responses.",
+  "name": "prisma-error-formatter",
+  "version": "5.0.0",
+  "description": "A flexible and customizable Prisma error formatter to simplify and unify error handling in Prisma Client applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
