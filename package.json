@@ -1,7 +1,7 @@
 {
-  "name": "prisma-error-formatter",
-  "version": "1.0.1",
-  "description": "A flexible and customizable Prisma error formatter for better error handling and user-friendly error messages in Prisma Client applications.",
+  "name": "nestjs-exception-handler",
+  "version": "3.0.0",
+  "description": "A comprehensive global exception filter for NestJS that handles all common NestJS, Prisma, and Node.js exceptions with formatted error responses.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -21,48 +21,54 @@
     "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": [
-    "prisma",
+    "nestjs",
+    "exception",
+    "filter",
     "error",
-    "formatter",
-    "prisma-error",
-    "prisma-errors",
-    "prisma-client",
-    "error-handling",
-    "error-formatting",
-    "prisma-exception",
-    "database-errors",
-    "typescript",
-    "nodejs",
-    "orm",
-    "prisma-orm",
-    "prisma-client-errors",
-    "prisma-error-handler",
-    "validation-error",
-    "initialization-error",
-    "rust-panic",
-    "database-orm",
-    "error-messages",
-    "exception-formatter",
-    "prisma-exception-formatter"
+    "handler",
+    "prisma",
+    "error-handler",
+    "exception-filter",
+    "global-exception-filter",
+    "nestjs-exception",
+    "nestjs-error",
+    "validation",
+    "class-validator"
   ],
   "author": "Nurul Islam Rimon <nurulislamrimon@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nurulislamrimon/prisma-error-formatter.git"
+    "url": "https://github.com/nurulislamrimon/nestjs-exception-handler.git"
   },
   "bugs": {
-    "url": "https://github.com/nurulislamrimon/prisma-error-formatter/issues"
+    "url": "https://github.com/nurulislamrimon/nestjs-exception-handler/issues"
   },
-  "homepage": "https://github.com/nurulislamrimon/prisma-error-formatter#readme",
+  "homepage": "https://github.com/nurulislamrimon/nestjs-exception-handler#readme",
   "engines": {
     "node": ">=16"
   },
   "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
     "@prisma/client": ">=4.0.0"
   },
+  "peerDependenciesMeta": {
+    "@nestjs/common": {
+      "optional": true
+    },
+    "@nestjs/core": {
+      "optional": true
+    },
+    "@prisma/client": {
+      "optional": true
+    }
+  },
   "devDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
     "@prisma/client": "^6.9.0",
+    "@types/express": "^5.0.0",
     "@types/node": "^24.0.2",
     "typescript": "^5.8.3"
   }
